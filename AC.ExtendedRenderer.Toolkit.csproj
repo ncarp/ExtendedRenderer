@@ -1,0 +1,803 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8DAB2F17-3B7C-4324-ABF7-CF52CEC098F3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AC.ExtendedRenderer.Toolkit</RootNamespace>
+    <AssemblyName>AC.ExtendedRenderer.Toolkit</AssemblyName>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>sgKey.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Toolkit, Version=4.4.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CalendarLibrary\AppointmentAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalendarLibrary\AppointmentAdd.Designer.cs">
+      <DependentUpon>AppointmentAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarLibrary\Calendar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CalendarLibrary\Calendar.Designer.cs">
+      <DependentUpon>Calendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarLibrary\CalendarItem.cs" />
+    <Compile Include="CalendarLibrary\CalendarTimeSpan.cs" />
+    <Compile Include="CalendarLibrary\ColorTable.cs" />
+    <Compile Include="CalendarLibrary\DayCell.cs" />
+    <Compile Include="CalendarLibrary\DayColumn.cs" />
+    <Compile Include="CalendarLibrary\DayColumnHeaderCell.cs" />
+    <Compile Include="CalendarLibrary\DayRowHeaderCell.cs" />
+    <Compile Include="CalendarLibrary\HalfHourCell.cs" />
+    <Compile Include="CalendarLibrary\HalfHourRowHeaderCell.cs" />
+    <Compile Include="CalendarLibrary\HalfWeekColumn.cs" />
+    <Compile Include="CalendarLibrary\KryptonCalendar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CalendarLibrary\WeekDayColumn.cs" />
+    <Compile Include="CalendarLibrary\WeekRow.cs" />
+    <Compile Include="CalendarLibrary\WeekRowHeaderCell.cs" />
+    <Compile Include="Calendar\Calendar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Calendar\CalendarColorTable.cs" />
+    <Compile Include="Calendar\CalendarDay.cs" />
+    <Compile Include="Calendar\CalendarDayEventArgs.cs" />
+    <Compile Include="Calendar\CalendarDaysMode.cs" />
+    <Compile Include="Calendar\CalendarDayTop.cs" />
+    <Compile Include="Calendar\CalendarHighlightRange.cs" />
+    <Compile Include="Calendar\CalendarItem.cs" />
+    <Compile Include="Calendar\CalendarItemCancelEventArgs.cs" />
+    <Compile Include="Calendar\CalendarItemCollection.cs" />
+    <Compile Include="Calendar\CalendarItemEventArgs.cs" />
+    <Compile Include="Calendar\CalendarItemImageAlign.cs" />
+    <Compile Include="Calendar\CalendarKryptonRenderer.cs" />
+    <Compile Include="Calendar\CalendarLoadEventArgs.cs" />
+    <Compile Include="Calendar\CalendarProfessionalRenderer.cs" />
+    <Compile Include="Calendar\CalendarRenderer.cs" />
+    <Compile Include="Calendar\CalendarRendererBoxEventArgs.cs" />
+    <Compile Include="Calendar\CalendarRendererDayEventArgs.cs" />
+    <Compile Include="Calendar\CalendarRendererEventArgs.cs" />
+    <Compile Include="Calendar\CalendarRendererItemBoundsEventArgs.cs" />
+    <Compile Include="Calendar\CalendarRendererItemEventArgs.cs" />
+    <Compile Include="Calendar\CalendarRendererTimeUnitEventArgs.cs" />
+    <Compile Include="Calendar\CalendarSelectableElement.cs" />
+    <Compile Include="Calendar\CalendarSystemRenderer.cs" />
+    <Compile Include="Calendar\CalendarTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Calendar\CalendarTimeScale.cs" />
+    <Compile Include="Calendar\CalendarTimeScaleUnit.cs" />
+    <Compile Include="Calendar\CalendarWeek.cs" />
+    <Compile Include="Calendar\ICalendarSelectableElement.cs" />
+    <Compile Include="Calendar\ISelectableElement.cs" />
+    <Compile Include="Calendar\MonthView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Calendar\MonthViewBoxEventArgs.cs" />
+    <Compile Include="Calendar\MonthViewDay.cs" />
+    <Compile Include="Calendar\MonthViewMontEventArgs.cs" />
+    <Compile Include="Calendar\MonthViewMonth.cs" />
+    <Compile Include="Charting\AquaGauge.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Charting\AquaGauge.Designer.cs">
+      <DependentUpon>AquaGauge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Charting\DataBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Charting\DataChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Charting\HBarChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Charting\KryptonKnobControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Charting\KryptonAquaGauge.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Charting\KryptonLxLedControlcs.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Charting\LxLedControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Charting\SlidingScale.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Charting\StarRatingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonBorderedLabel.cs" />
+    <Compile Include="KryptonComboBoxTree.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonMonthCalendar.cs">
+    </Compile>
+    <Compile Include="KryptonComboBoxToolStripMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonCustomButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonImageComboBox.cs">
+    </Compile>
+    <Compile Include="KryptonOutlookGrid\CustomColumns\KryptonDataGridViewPercentageColumn.cs" />
+    <Compile Include="KryptonOutlookGrid\CustomColumns\KryptonDataGridViewRatingcolumn.cs" />
+    <Compile Include="KryptonOutlookGrid\CustomColumns\KryptonDataGridViewTextAndImageColumn.cs" />
+    <Compile Include="KryptonOutlookGrid\Helpers\GridGroupDateUtility.cs" />
+    <Compile Include="KryptonOutlookGrid\IOutlookGridGroup.cs" />
+    <Compile Include="KryptonOutlookGrid\KryptonOutlookGridGroupBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KryptonOutlookGrid\KryptonOutlookGridGroupBox.Designer.cs">
+      <DependentUpon>KryptonOutlookGridGroupBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KryptonOutlookGrid\OutlookGrid.cs" />
+    <Compile Include="KryptonOutlookGrid\OutlookGrid.designer.cs">
+      <DependentUpon>OutlookGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KryptonOutlookGrid\OutlookGridColumn.cs" />
+    <Compile Include="KryptonOutlookGrid\OutlookGridColumnCollection.cs" />
+    <Compile Include="KryptonOutlookGrid\OutlookGridColumnEventArgs.cs" />
+    <Compile Include="KryptonOutlookGrid\OutlookGridGroup.cs" />
+    <Compile Include="KryptonOutlookGrid\OutlookGridGroupBoxColumn.cs" />
+    <Compile Include="KryptonOutlookGrid\OutlookGridGroupCollection.cs" />
+    <Compile Include="KryptonOutlookGrid\OutlookGridRow.cs" />
+    <Compile Include="KryptonOutlookGrid\OutlookGridRowComparer.cs" />
+    <Compile Include="KryptonPowerComboBox.cs" />
+    <Compile Include="KryptonProgress.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KryptonPropertyGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonShadowLabel.cs" />
+    <Compile Include="KryptonSlider.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KryptonSlider.Designer.cs">
+      <DependentUpon>KryptonSlider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KryptonSliderBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonSliderBar.Designer.cs">
+      <DependentUpon>KryptonSliderBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KryptonSliderButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KryptonSliderButton.Designer.cs">
+      <DependentUpon>KryptonSliderButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KryptonSplitButton.cs">
+    </Compile>
+    <Compile Include="Drawing\ColorChangedEventArgs.cs" />
+    <Compile Include="Drawing\DrawingMethods.cs" />
+    <Compile Include="Drawing\KryptonColorChooser1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drawing\KryptonColorChooser2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drawing\ColorHandler.cs" />
+    <Compile Include="Drawing\ColorWheel.cs" />
+    <Compile Include="GlassButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GlassButton.Designer.cs">
+      <DependentUpon>GlassButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GroupableKryptonListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonCollapseContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonCollapseContainer.Designer.cs">
+      <DependentUpon>KryptonCollapseContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KryptonComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonPanelEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonColorButtonToolStripMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonTimeFrame.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KryptonTrackBarToolStripMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonViewBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonViewBar.Designer.cs">
+      <DependentUpon>KryptonViewBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KryptonViewButtons.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KryptonViewButtons.Designer.cs">
+      <DependentUpon>KryptonViewButtons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBox\KryptonMessageBoxStd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBox\KryptonMessageBoxStd.Designer.cs">
+      <DependentUpon>KryptonMessageBoxStd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Navigator\EmptyTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Navigator\KryptonEmptyTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Navigator\CustomNavigatorButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Navigator\CustomTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Navigator\FlatTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Navigator\KryptonFlatTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Navigator\KryptonFlatTabControl.Designer.cs">
+      <DependentUpon>KryptonFlatTabControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Navigator\KryptonNavigatorButton.cs" />
+    <Compile Include="Navigator\KryptonTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Navigator\KryptonTabControlLite.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Navigator\KryptonTabControl_.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Navigator\KryptonTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Navigator\OutlookBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Navigator\OutlookBarButton.cs" />
+    <Compile Include="Navigator\OutlookBarButtonCollection.cs" />
+    <Compile Include="Navigator\OutlookBarNavigationPaneOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Navigator\OutlookBarNavigationPaneOptions.Designer.cs">
+      <DependentUpon>OutlookBarNavigationPaneOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Navigator\SystemTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KryptonTreeViewExt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListViewColumnSorter.cs" />
+    <Compile Include="MessageBox\KryptonMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBox\KryptonMessageBox.Designer.cs">
+      <DependentUpon>KryptonMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Palette\CustomKryptonPalette.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Palette\CreamPalette.cs" />
+    <Compile Include="Renderer\AquaGreenColorTable.cs" />
+    <Compile Include="Renderer\AquaRenderer.cs" />
+    <Compile Include="Renderer\ColorTableRed.cs" />
+    <Compile Include="Renderer\ThemedControls\ThemedButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Scrollbar\CustomScrollBar\ScrollBarArrowButtonState.cs" />
+    <Compile Include="Scrollbar\CustomScrollBar\ScrollBarControlDesigner.cs" />
+    <Compile Include="Scrollbar\CustomScrollBar\KryptonScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Scrollbar\CustomScrollBar\ScrollBarEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Scrollbar\CustomScrollBar\ScrollBarExRenderer.cs" />
+    <Compile Include="Scrollbar\CustomScrollBar\ScrollBarKryptonRenderer.cs" />
+    <Compile Include="Scrollbar\CustomScrollBar\ScrollBarOrientation.cs" />
+    <Compile Include="Scrollbar\CustomScrollBar\ScrollBarState.cs" />
+    <Compile Include="Scrollbar\HScrollSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Scrollbar\KryptonComboBox.cs" />
+    <Compile Include="Scrollbar\VScrollSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Scrollbar\Win32.cs" />
+    <Compile Include="StdControls\Buttons\CustomButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Renderer\DisplayInformation.cs" />
+    <Compile Include="Renderer\Office2007BlackColorTable.cs" />
+    <Compile Include="Renderer\Office2007BlueColorTable.cs" />
+    <Compile Include="Renderer\Office2007ColorTable.cs" />
+    <Compile Include="Renderer\Office2007FlatRenderer.cs" />
+    <Compile Include="Renderer\Office2007Helpers.cs" />
+    <Compile Include="Renderer\Office2007Renderer.cs" />
+    <Compile Include="Renderer\Office2007SilverColorTable.cs" />
+    <Compile Include="Renderer\ProfessionalColorTable.cs" />
+    <Compile Include="Renderer\RendererManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Renderer\ThemedControls\ThemedLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ribbon\RibbonRoundButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StdControls\Common\AnalogClock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StdControls\Common\GaugeControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StdControls\Common\GaugeControl.Designer.cs">
+      <DependentUpon>GaugeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StdControls\Common\IPAddressControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StdControls\Common\IPAddressControl.designer.cs">
+      <DependentUpon>IPAddressControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StdControls\Common\LoadingCircleToolStripMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StdControls\Common\Progress.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StdControls\Common\ScrollingLabel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StdControls\Common\ScrollingLabelToolStripMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StdControls\Common\ShadowLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StdControls\Common\TimeFrame.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StdControls\Common\WatermarkedRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StdControls\Common\WatermarkedRichTextBox.Designer.cs">
+      <DependentUpon>WatermarkedRichTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StdControls\Common\WatermarkedTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StdControls\Common\WatermarkedTextBox.Designer.cs">
+      <DependentUpon>WatermarkedTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StdControls\GridView\DataGridViewAutoFilterColumnHeaderCell.cs" />
+    <Compile Include="StdControls\GridView\DataGridViewAutoFilterTextBoxColumn.cs" />
+    <Compile Include="StdControls\GridView\DataGridViewBackgroudImage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StdControls\GridView\DataGridViewBellImage.cs" />
+    <Compile Include="StdControls\GridView\DataGridViewColoredTextBox.cs" />
+    <Compile Include="StdControls\GridView\DataGridViewImageCellEmptyRow.cs" />
+    <Compile Include="StdControls\GridView\DataGridViewOkFailImage.cs" />
+    <Compile Include="StdControls\GridView\DataGridViewPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StdControls\GridView\DataGridViewProgressColumn.cs" />
+    <Compile Include="StdControls\GridView\DataGridViewUpDownImage.cs" />
+    <Compile Include="StdControls\Common\GroupableListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StdControls\Common\ImageCombo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StdControls\Common\ImageComboItem.cs" />
+    <Compile Include="StdControls\Common\LoadingCircle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StdControls\Common\LoadingCircle.Designer.cs">
+      <DependentUpon>LoadingCircle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StdControls\Common\PrintableRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StdControls\LBox\FixedSizeCache.cs" />
+    <Compile Include="StdControls\LBox\KryptonVirtualListBox.cs" />
+    <Compile Include="StdControls\LView\ListViewItemComparer.cs" />
+    <Compile Include="StdControls\LView\ListViewPrint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StdControls\LView\ListViewSort.cs" />
+    <Compile Include="StdControls\TView\FileSystemTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StdControls\TView\ShellIcon.cs" />
+    <Compile Include="StdControls\TView\TreeViewPrintHelper.cs" />
+    <Compile Include="TreeGridView\TreeGridCell.cs" />
+    <Compile Include="TreeGridView\TreeGridEvents.cs" />
+    <Compile Include="TreeGridView\TreeGridNode.cs" />
+    <Compile Include="TreeGridView\TreeGridNodeCollection.cs" />
+    <Compile Include="TreeGridView\TreeGridNodeParentBuilder.cs" />
+    <Compile Include="TreeGridView\TreeGridView.cs" />
+    <Compile Include="Utils\FadeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utils\ToolStripControlHostFixed.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Utils\Utility.cs" />
+    <Compile Include="Utils\Win32.cs" />
+    <Compile Include="Wizard\Header.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizard\HeaderDesigner.cs" />
+    <Compile Include="Wizard\InfoContainer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizard\InfoContainerDesigner.cs" />
+    <Compile Include="Wizard\InfoPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizard\InfoPageDesigner.cs" />
+    <Compile Include="Wizard\PageCollection.cs" />
+    <Compile Include="Wizard\PageEventHandler.cs" />
+    <Compile Include="Wizard\Wizard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizard\WizardDesigner.cs" />
+    <Compile Include="Wizard\WizardPage.cs" />
+    <Compile Include="Wizard\WizardPageDesigner.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Charting\DataBar.resx">
+      <DependentUpon>DataBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Charting\DataChart.resx">
+      <DependentUpon>DataChart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drawing\KryptonColorChooser1.resx">
+      <DependentUpon>KryptonColorChooser1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drawing\KryptonColorChooser2.resx">
+      <DependentUpon>KryptonColorChooser2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupableKryptonListView.resx">
+      <DependentUpon>GroupableKryptonListView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KryptonCollapseContainer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>KryptonCollapseContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KryptonListView.resx">
+      <DependentUpon>KryptonListView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KryptonOutlookGrid\KryptonOutlookGridGroupBox.resx">
+      <DependentUpon>KryptonOutlookGridGroupBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KryptonTreeViewExt.resx">
+      <DependentUpon>KryptonTreeViewExt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBox\KryptonMessageBox.resx">
+      <DependentUpon>KryptonMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBox\KryptonMessageBoxStd.resx">
+      <DependentUpon>KryptonMessageBoxStd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scrollbar\CustomScrollBar\KryptonScrollBar.resx">
+      <DependentUpon>KryptonScrollBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scrollbar\CustomScrollBar\ScrollBarEx.resx">
+      <DependentUpon>ScrollBarEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scrollbar\KryptonComboBox.resx">
+      <DependentUpon>KryptonComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StdControls\Common\AnalogClock.resx">
+      <DependentUpon>AnalogClock.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StdControls\Common\GroupableListView.resx">
+      <DependentUpon>GroupableListView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StdControls\Common\ImageCombo.resx">
+      <DependentUpon>ImageCombo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StdControls\TView\FileSystemTreeView.resx">
+      <DependentUpon>FileSystemTreeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\Header.resx">
+      <DependentUpon>Header.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\InfoContainer.resx">
+      <DependentUpon>InfoContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\InfoPage.resx">
+      <DependentUpon>InfoPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\Wizard.resx">
+      <DependentUpon>Wizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizard\WizardPage.resx">
+      <DependentUpon>WizardPage.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sgKey.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GlassButton.bmp" />
+    <None Include="Resources\palette.bmp" />
+    <EmbeddedResource Include="StdControls\Images\AnalogClock.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Charting\DataBar.bmp" />
+    <EmbeddedResource Include="Charting\DataChart.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="StdControls\Images\LoadingCircle.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Navigator\FlatTabControl.resx">
+      <DependentUpon>FlatTabControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Navigator\KryptonTabControl.resx">
+      <DependentUpon>KryptonTabControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Navigator\CustomTabControl.resx">
+      <DependentUpon>CustomTabControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StdControls\Common\IPAddressControl.resx">
+      <DependentUpon>IPAddressControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StdControls\Common\ScrollingLabel.resx">
+      <DependentUpon>ScrollingLabel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StdControls\Images\ActiveBell.ico" />
+    <EmbeddedResource Include="StdControls\Images\Down.ico" />
+    <EmbeddedResource Include="StdControls\Images\Eq.ico" />
+    <EmbeddedResource Include="StdControls\Images\Fail.png" />
+    <EmbeddedResource Include="StdControls\Images\InactiveBell.ico" />
+    <EmbeddedResource Include="StdControls\Images\Na.ico" />
+    <EmbeddedResource Include="StdControls\Images\Na2.ico" />
+    <EmbeddedResource Include="StdControls\Images\Ok.png" />
+    <EmbeddedResource Include="StdControls\Images\reviewcomment.bmp" />
+    <EmbeddedResource Include="StdControls\Images\RingingBell.ico" />
+    <EmbeddedResource Include="StdControls\Images\Up.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="StdControls\LBox\KryptonVirtualListBox.resx">
+      <DependentUpon>KryptonVirtualListBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Charting\AquaGauge.resx">
+      <DependentUpon>AquaGauge.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Charting\HBarChart.resx">
+      <DependentUpon>HBarChart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KryptonSlider.resx">
+      <DependentUpon>KryptonSlider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KryptonSliderButton.resx">
+      <DependentUpon>KryptonSliderButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KryptonViewButtons.resx">
+      <DependentUpon>KryptonViewButtons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Navigator\OutlookBarNavigationPaneOptions.resx">
+      <DependentUpon>OutlookBarNavigationPaneOptions.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow_Down.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow_Up.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefaultIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DropDown2003.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DropDown2007.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grip2003.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grip2007.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ok.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fail.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="StdControls\Images\Down.png" />
+    <EmbeddedResource Include="StdControls\Images\Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="StdControls\Images\Question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="KryptonProgress.resx">
+      <DependentUpon>KryptonProgress.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CalendarLibrary\AppointmentAdd.resx">
+      <DependentUpon>AppointmentAdd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="StdControls\Grid\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Calendar\KryptonCalendar-how to Kryptonize.txt" />
+    <EmbeddedResource Include="Palette\Asphalt_v18.xml" />
+    <EmbeddedResource Include="Palette\Chrome_v18.xml" />
+    <EmbeddedResource Include="Palette\Cream_v18.xml" />
+    <EmbeddedResource Include="Palette\GreenPalette_v18.xml" />
+    <EmbeddedResource Include="Palette\Hazel_v18.xml" />
+    <EmbeddedResource Include="Palette\McLane_v18.xml" />
+    <EmbeddedResource Include="Palette\Plastic_v18.xml" />
+    <EmbeddedResource Include="Palette\StdCustomPalette_v18.xml" />
+    <EmbeddedResource Include="Palette\System_Palette_v18.xml" />
+    <EmbeddedResource Include="Palette\win7_Palette_v18.xml" />
+    <Content Include="KryptonOutlookGrid\Resources\CollapseIcon.png" />
+    <Content Include="KryptonOutlookGrid\Resources\CollapseIcon2010.png" />
+    <Content Include="KryptonOutlookGrid\Resources\element.png" />
+    <Content Include="KryptonOutlookGrid\Resources\element_delete.png" />
+    <Content Include="KryptonOutlookGrid\Resources\element_selection_delete.png" />
+    <Content Include="KryptonOutlookGrid\Resources\ExpandIcon.png" />
+    <Content Include="KryptonOutlookGrid\Resources\ExpandIcon2010.png" />
+    <Content Include="KryptonOutlookGrid\Resources\fit_to_size.png" />
+    <Content Include="KryptonOutlookGrid\Resources\navigate_minus.png" />
+    <Content Include="KryptonOutlookGrid\Resources\navigate_plus.png" />
+    <Content Include="KryptonOutlookGrid\Resources\sort_az_ascending2.png" />
+    <Content Include="KryptonOutlookGrid\Resources\sort_az_descending2.png" />
+    <Content Include="KryptonOutlookGrid\Resources\sort_up_down_delete_16.png" />
+    <Content Include="KryptonOutlookGrid\Resources\star0.png" />
+    <Content Include="KryptonOutlookGrid\Resources\star1.png" />
+    <Content Include="KryptonOutlookGrid\Resources\star2.png" />
+    <Content Include="KryptonOutlookGrid\Resources\star3.png" />
+    <Content Include="KryptonOutlookGrid\Resources\star4.png" />
+    <Content Include="KryptonOutlookGrid\Resources\star5.png" />
+    <Content Include="KryptonOutlookGrid\Resources\starhot0.png" />
+    <Content Include="KryptonOutlookGrid\Resources\starhot1.png" />
+    <Content Include="KryptonOutlookGrid\Resources\starhot2.png" />
+    <Content Include="KryptonOutlookGrid\Resources\starhot3.png" />
+    <Content Include="KryptonOutlookGrid\Resources\starhot4.png" />
+    <Content Include="KryptonOutlookGrid\Resources\starhot5.png" />
+    <Content Include="KryptonOutlookGrid\Resources\star_yellow.png" />
+    <Content Include="KryptonOutlookGrid\Resources\star_yellow_disabled.png" />
+    <Content Include="KryptonOutlookGrid\Resources\star_yellow_half_16.png" />
+    <Content Include="Wizard\Wizard.bmp" />
+    <Content Include="Wizard\wizBigOnlineFolder.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

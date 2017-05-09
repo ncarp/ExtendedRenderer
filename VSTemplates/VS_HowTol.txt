@@ -1,0 +1,5 @@
+- Add the AC.ExtendedRenderer.Toolkit assembly to the toolkit (open a project, on the toolkit, right click and then, choose items ... browse to the dll folder)
+
+- Copy the zip files (xxxproject.zip files) to the VisualStudio template directory in the "My Documents" folder, ie: C:\Users\UserName\Documents\Visual Studio 2008\Templates\ProjectTemplates 
+
+- Copy the other two zip files to the item template folder, ie: C:\Users\UserName\Documents\Visual Studio 2008\Templates\ItemTemplates

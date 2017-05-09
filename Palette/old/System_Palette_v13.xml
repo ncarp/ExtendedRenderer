@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<!--Created by exporting the settings of a KryptonPalette instance.-->
+<!--For more information about Krypton visit www.ComponentFactory.com-->
+<!--WARNING: Modifying this file may render it invalid for importing.-->
+<KryptonPalette Version="13" Generated="Monday, 28 August 2006, 20:20">
+    <Properties>
+        <ButtonStyles>
+            <ButtonCommon>
+                <StateCommon>
+                    <Back>
+                        <GraphicsHint Type="PaletteGraphicsHint" Value="AntiAlias" />
+                        <ColorStyle Type="PaletteColorStyle" Value="HalfCut" />
+                        <ColorAngle Type="Single" Value="85" />
+                    </Back>
+                    <Border>
+                        <GraphicsHint Type="PaletteGraphicsHint" Value="AntiAlias" />
+                        <Color1 Type="Color" Value="ControlDark" />
+                        <Rounding Type="Int" Value="4" />
+                    </Border>
+                    <Content>
+                        <ShortText>
+                            <Color1 Type="Color" Value="ControlText" />
+                        </ShortText>
+                        <Padding Type="Padding" Value="1, 1, 1, 1" />
+                    </Content>
+                </StateCommon>
+                <StateDisabled>
+                    <Back>
+                        <Color1 Type="Color" Value="Control" />
+                        <ColorStyle Type="PaletteColorStyle" Value="Solid" />
+                    </Back>
+                    <Content>
+                        <ShortText>
+                            <Color1 Type="Color" Value="GrayText" />
+                        </ShortText>
+                    </Content>
+                </StateDisabled>
+                <StateNormal>
+                    <Back>
+                        <Color1 Type="Color" Value="ControlLightLight" />
+                        <Color2 Type="Color" Value="Control" />
+                    </Back>
+                </StateNormal>
+                <StateTracking>
+                    <Back>
+                        <Color1 Type="Color" Value="ControlLightLight" />
+                        <Color2 Type="Color" Value="Control" />
+                    </Back>
+                    <Border>
+                        <Color1 Type="Color" Value="ControlDarkDark" />
+                    </Border>
+                    <Content>
+                        <Image>
+                            <Effect Type="PaletteImageEffect" Value="Light" />
+                        </Image>
+                    </Content>
+                </StateTracking>
+                <StatePressed>
+                    <Back>
+                        <Color1 Type="Color" Value="Control" />
+                        <Color2 Type="Color" Value="ControlDark" />
+                        <ColorStyle Type="PaletteColorStyle" Value="HalfCut" />
+                    </Back>
+                    <Content>
+                        <Image>
+                            <Effect Type="PaletteImageEffect" Value="Dark" />
+                        </Image>
+                    </Content>
+                </StatePressed>
+                <StateCheckedNormal>
+                    <Back>
+                        <Color1 Type="Color" Value="Highlight" />
+                        <ColorStyle Type="PaletteColorStyle" Value="Solid" />
+                    </Back>
+                    <Content>
+                        <ShortText>
+                            <Color1 Type="Color" Value="HighlightText" />
+                        </ShortText>
+                    </Content>
+                </StateCheckedNormal>
+                <StateCheckedTracking>
+                    <Back>
+                        <Color1 Type="Color" Value="Highlight" />
+                        <ColorStyle Type="PaletteColorStyle" Value="Solid" />
+                    </Back>
+                    <Content>
+                        <Image>
+                            <Effect Type="PaletteImageEffect" Value="Light" />
+                        </Image>
+                        <ShortText>
+                            <Color1 Type="Color" Value="HighlightText" />
+                        </ShortText>
+                    </Content>
+                </StateCheckedTracking>
+                <StateCheckedPressed>
+                    <Back>
+                        <Color1 Type="Color" Value="Highlight" />
+                        <ColorStyle Type="PaletteColorStyle" Value="Solid" />
+                    </Back>
+                    <Content>
+                        <Image>
+                            <Effect Type="PaletteImageEffect" Value="Dark" />
+                        </Image>
+                        <ShortText>
+                            <Color1 Type="Color" Value="HighlightText" />
+                        </ShortText>
+                    </Content>
+                </StateCheckedPressed>
+                <OverrideDefault>
+                    <Back>
+                        <Color1 Type="Color" Value="ControlLightLight" />
+                        <Color2 Type="Color" Value="Control" />
+                    </Back>
+                    <Border>
+                        <Color1 Type="Color" Value="ControlText" />
+                    </Border>
+                    <Content>
+                        <Padding Type="Padding" Value="0, 0, 0, 0" />
+                    </Content>
+                </OverrideDefault>
+            </ButtonCommon>
+            <ButtonLowProfile>
+                <StateDisabled>
+                    <Back>
+                        <Draw Type="InheritBool" Value="False" />
+                    </Back>
+                    <Border>
+                        <Color1 Type="Color" Value="Transparent" />
+                    </Border>
+                </StateDisabled>
+                <StateNormal>
+                    <Back>
+                        <Draw Type="InheritBool" Value="False" />
+                    </Back>
+                    <Border>
+                        <Draw Type="InheritBool" Value="False" />
+                        <Color1 Type="Color" Value="Transparent" />
+                    </Border>
+                </StateNormal>
+                <StateCheckedNormal>
+                    <Back>
+                        <GraphicsHint Type="PaletteGraphicsHint" Value="AntiAlias" />
+                    </Back>
+                    <Border>
+                        <Draw Type="InheritBool" Value="False" />
+                    </Border>
+                </StateCheckedNormal>
+            </ButtonLowProfile>
+            <ButtonButtonSpec>
+                <StateCommon>
+                    <Back>
+                        <Draw Type="InheritBool" Value="False" />
+                    </Back>
+                    <Border>
+                        <GraphicsHint Type="PaletteGraphicsHint" Value="None" />
+                        <Width Type="Int" Value="0" />
+                        <Rounding Type="Int" Value="0" />
+                    </Border>
+                    <Content>
+                        <Padding Type="Padding" Value="2, 2, 2, 2" />
+                    </Content>
+                </StateCommon>
+                <StateNormal>
+                    <Content>
+                        <ShortText>
+                            <Color1 Type="Color" Value="ControlLightLight" />
+                        </ShortText>
+                    </Content>
+                </StateNormal>
+                <StateTracking>
+                    <Back>
+                        <Draw Type="InheritBool" Value="True" />
+                    </Back>
+                    <Border>
+                        <Width Type="Int" Value="1" />
+                    </Border>
+                    <Content>
+                        <ShortText>
+                            <Color1 Type="Color" Value="ControlText" />
+                        </ShortText>
+                    </Content>
+                </StateTracking>
+                <StatePressed>
+                    <Back>
+                        <Draw Type="InheritBool" Value="True" />
+                    </Back>
+                    <Border>
+                        <Width Type="Int" Value="1" />
+                    </Border>
+                    <Content>
+                        <ShortText>
+                            <Color1 Type="Color" Value="ControlText" />
+                        </ShortText>
+                    </Content>
+                </StatePressed>
+            </ButtonButtonSpec>
+        </ButtonStyles>
+        <Common>
+            <StateCommon>
+                <Content>
+                    <ShortText>
+                        <Font Type="Font" Value="Tahoma, 8.25pt" />
+                    </ShortText>
+                </Content>
+            </StateCommon>
+        </Common>
+        <HeaderStyles>
+            <HeaderCommon>
+                <StateCommon>
+                    <Back>
+                        <ColorStyle Type="PaletteColorStyle" Value="HalfCut" />
+                    </Back>
+                </StateCommon>
+            </HeaderCommon>
+            <HeaderPrimary>
+                <StateCommon>
+                    <Content>
+                        <ShortText>
+                            <Font Type="Font" Value="Tahoma, 12pt, style=Bold" />
+                        </ShortText>
+                    </Content>
+                </StateCommon>
+            </HeaderPrimary>
+            <HeaderSecondary>
+                <StateCommon>
+                    <Content>
+                        <ShortText>
+                            <Font Type="Font" Value="Tahoma, 9pt" />
+                        </ShortText>
+                    </Content>
+                </StateCommon>
+            </HeaderSecondary>
+        </HeaderStyles>
+        <ToolMenuStatus>
+            <UseRoundedEdges Type="InheritBool" Value="False" />
+        </ToolMenuStatus>
+    </Properties>
+    <Images />
+</KryptonPalette>

@@ -1,0 +1,781 @@
+<?xml version="1.0"?>
+<!--Created by exporting the settings of a KryptonPalette instance.-->
+<!--For more information about Krypton visit www.ComponentFactory.com-->
+<!--WARNING: Modifying this file may render it invalid for importing.-->
+<KryptonPalette Version="12" Generated="Monday, 09 June 2008, 17:40">
+  <Properties>
+    <ButtonStyles>
+      <ButtonCommon>
+        <StateCommon>
+          <Back>
+            <ColorStyle Type="PaletteColorStyle" Value="RoundedTopLight" />
+          </Back>
+          <Border>
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+            <Color1 Type="Color" Value="13, 130, 192" />
+            <Color2 Type="Color" Value="13, 130, 192" />
+            <Rounding Type="Int" Value="1" />
+          </Border>
+        </StateCommon>
+        <StateDisabled>
+          <Border>
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+            <Color1 Type="Color" Value="170, 200, 217" />
+            <Color2 Type="Color" Value="170, 200, 217" />
+          </Border>
+        </StateDisabled>
+        <StateNormal>
+          <Back>
+            <Color1 Type="Color" Value="254, 254, 254" />
+            <Color2 Type="Color" Value="210, 210, 210" />
+            <ColorStyle Type="PaletteColorStyle" Value="RoundedTopLight" />
+          </Back>
+        </StateNormal>
+        <StateTracking>
+          <Back>
+            <Color1 Type="Color" Value="188, 226, 255" />
+            <Color2 Type="Color" Value="98, 184, 251" />
+          </Back>
+        </StateTracking>
+        <StatePressed>
+          <Back>
+            <Color1 Type="Color" Value="98, 184, 251" />
+            <Color2 Type="Color" Value="188, 226, 255" />
+          </Back>
+        </StatePressed>
+        <StateCheckedNormal>
+          <Back>
+            <Color1 Type="Color" Value="98, 184, 251" />
+            <Color2 Type="Color" Value="188, 226, 255" />
+          </Back>
+        </StateCheckedNormal>
+        <StateCheckedTracking>
+          <Back>
+            <Color1 Type="Color" Value="125, 207, 255" />
+            <Color2 Type="Color" Value="188, 226, 255" />
+          </Back>
+        </StateCheckedTracking>
+        <StateCheckedPressed>
+          <Back>
+            <Color1 Type="Color" Value="98, 184, 251" />
+            <Color2 Type="Color" Value="188, 226, 255" />
+          </Back>
+        </StateCheckedPressed>
+        <OverrideDefault>
+          <Back>
+            <Color1 Type="Color" Value="254, 254, 254" />
+            <Color2 Type="Color" Value="210, 210, 210" />
+          </Back>
+          <Border>
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+            <Color1 Type="Color" Value="13, 130, 192" />
+            <Color2 Type="Color" Value="13, 130, 192" />
+          </Border>
+        </OverrideDefault>
+      </ButtonCommon>
+      <ButtonAlternate>
+        <StateTracking>
+          <Back>
+            <Color1 Type="Color" Value="254, 254, 254" />
+            <Color2 Type="Color" Value="210, 210, 210" />
+            <ColorStyle Type="PaletteColorStyle" Value="GlassNormalFull" />
+          </Back>
+        </StateTracking>
+        <StatePressed>
+          <Back>
+            <Color1 Type="Color" Value="210, 210, 210" />
+            <Color2 Type="Color" Value="254, 254, 254" />
+          </Back>
+        </StatePressed>
+        <StateCheckedNormal>
+          <Back>
+            <Color1 Type="Color" Value="210, 210, 210" />
+            <Color2 Type="Color" Value="254, 254, 254" />
+          </Back>
+        </StateCheckedNormal>
+        <StateCheckedTracking>
+          <Back>
+            <Color1 Type="Color" Value="210, 210, 210" />
+            <Color2 Type="Color" Value="254, 254, 254" />
+          </Back>
+        </StateCheckedTracking>
+        <StateCheckedPressed>
+          <Back>
+            <Color1 Type="Color" Value="210, 210, 210" />
+            <Color2 Type="Color" Value="254, 254, 254" />
+          </Back>
+        </StateCheckedPressed>
+        <OverrideDefault>
+          <Back>
+            <Color1 Type="Color" Value="254, 254, 254" />
+            <Color2 Type="Color" Value="210, 210, 210" />
+          </Back>
+        </OverrideDefault>
+      </ButtonAlternate>
+      <ButtonButtonSpec>
+        <StateCommon>
+          <Border>
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+            <Rounding Type="Int" Value="1" />
+          </Border>
+        </StateCommon>
+        <StateTracking>
+          <Back>
+            <Color1 Type="Color" Value="188, 226, 255" />
+            <Color2 Type="Color" Value="98, 184, 251" />
+            <ColorStyle Type="PaletteColorStyle" Value="RoundedTopLight" />
+          </Back>
+        </StateTracking>
+        <StatePressed>
+          <Back>
+            <Color1 Type="Color" Value="98, 184, 251" />
+            <Color2 Type="Color" Value="188, 226, 255" />
+          </Back>
+        </StatePressed>
+      </ButtonButtonSpec>
+      <ButtonNavigatorStack>
+        <StateCommon>
+          <Border>
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+            <Color1 Type="Color" Value="98, 184, 251" />
+            <Color2 Type="Color" Value="98, 184, 251" />
+            <Rounding Type="Int" Value="0" />
+          </Border>
+        </StateCommon>
+      </ButtonNavigatorStack>
+      <ButtonNavigatorMini>
+        <StateCommon>
+          <Border>
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+            <Rounding Type="Int" Value="0" />
+          </Border>
+        </StateCommon>
+      </ButtonNavigatorMini>
+      <ButtonInputControl>
+        <StateCommon>
+          <Border>
+            <Draw Type="InheritBool" Value="False" />
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+            <Width Type="Int" Value="1" />
+          </Border>
+        </StateCommon>
+        <StateTracking>
+          <Border>
+            <Draw Type="InheritBool" Value="True" />
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+          </Border>
+        </StateTracking>
+        <StatePressed>
+          <Border>
+            <Draw Type="InheritBool" Value="True" />
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+          </Border>
+        </StatePressed>
+        <StateCheckedNormal>
+          <Back>
+            <Color1 Type="Color" Value="254, 254, 254" />
+            <Color2 Type="Color" Value="210, 210, 210" />
+          </Back>
+          <Border>
+            <Draw Type="InheritBool" Value="True" />
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+          </Border>
+        </StateCheckedNormal>
+        <StateCheckedTracking>
+          <Border>
+            <Draw Type="InheritBool" Value="True" />
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+          </Border>
+        </StateCheckedTracking>
+        <StateCheckedPressed>
+          <Border>
+            <Draw Type="InheritBool" Value="True" />
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+          </Border>
+        </StateCheckedPressed>
+      </ButtonInputControl>
+      <ButtonForm>
+        <StateNormal>
+          <Back>
+            <Draw Type="InheritBool" Value="True" />
+          </Back>
+          <Border>
+            <Draw Type="InheritBool" Value="True" />
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+          </Border>
+        </StateNormal>
+      </ButtonForm>
+    </ButtonStyles>
+    <ControlStyles>
+      <ControlCommon>
+        <StateCommon>
+          <Back>
+            <Color1 Type="Color" Value="253, 253, 253" />
+            <Color2 Type="Color" Value="253, 253, 253" />
+          </Back>
+          <Border>
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+            <Color1 Type="Color" Value="13, 130, 192" />
+            <Color2 Type="Color" Value="13, 130, 192" />
+          </Border>
+        </StateCommon>
+      </ControlCommon>
+    </ControlStyles>
+    <ContextMenu>
+      <StateHighlight>
+        <ItemHighlight>
+          <Back>
+            <Color1 Type="Color" Value="188, 226, 255" />
+            <Color2 Type="Color" Value="98, 184, 251" />
+            <ColorStyle Type="PaletteColorStyle" Value="RoundedTopLight" />
+          </Back>
+          <Border>
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+            <Color1 Type="Color" Value="13, 130, 192" />
+            <Color2 Type="Color" Value="13, 130, 192" />
+            <Rounding Type="Int" Value="1" />
+          </Border>
+        </ItemHighlight>
+      </StateHighlight>
+      <StateChecked>
+        <ItemImage>
+          <Back>
+            <Color1 Type="Color" Value="188, 226, 255" />
+            <Color2 Type="Color" Value="188, 226, 255" />
+          </Back>
+          <Border>
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+            <Color1 Type="Color" Value="13, 130, 192" />
+            <Color2 Type="Color" Value="13, 130, 192" />
+          </Border>
+        </ItemImage>
+      </StateChecked>
+    </ContextMenu>
+    <HeaderStyles>
+      <HeaderCommon>
+        <StateCommon>
+          <Back>
+            <Color1 Type="Color" Value="254, 254, 254" />
+            <Color2 Type="Color" Value="210, 210, 210" />
+            <ColorStyle Type="PaletteColorStyle" Value="Linear25" />
+          </Back>
+          <Border>
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+            <Color1 Type="Color" Value="13, 130, 192" />
+            <Color2 Type="Color" Value="13, 130, 192" />
+          </Border>
+        </StateCommon>
+      </HeaderCommon>
+      <HeaderForm>
+        <StateCommon>
+          <Back>
+            <Color1 Type="Color" Value="116, 185, 238" />
+            <Color2 Type="Color" Value="94, 163, 229" />
+            <ColorStyle Type="PaletteColorStyle" Value="RoundedTopLight" />
+          </Back>
+        </StateCommon>
+      </HeaderForm>
+    </HeaderStyles>
+    <GridStyles>
+      <GridCommon>
+        <StateCommon>
+          <DataCell>
+            <Border>
+              <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+              <Color1 Type="Color" Value="13, 130, 192" />
+              <Color2 Type="Color" Value="13, 130, 192" />
+            </Border>
+          </DataCell>
+          <HeaderColumn>
+            <Border>
+              <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+              <Color1 Type="Color" Value="13, 130, 192" />
+              <Color2 Type="Color" Value="13, 130, 192" />
+            </Border>
+          </HeaderColumn>
+          <HeaderRow>
+            <Border>
+              <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+              <Color1 Type="Color" Value="13, 130, 192" />
+              <Color2 Type="Color" Value="13, 130, 192" />
+            </Border>
+          </HeaderRow>
+        </StateCommon>
+        <StateNormal>
+          <HeaderColumn>
+            <Back>
+              <Color1 Type="Color" Value="254, 254, 254" />
+              <Color2 Type="Color" Value="210, 210, 210" />
+            </Back>
+          </HeaderColumn>
+          <HeaderRow>
+            <Back>
+              <Color1 Type="Color" Value="254, 254, 254" />
+              <Color2 Type="Color" Value="210, 210, 210" />
+            </Back>
+          </HeaderRow>
+        </StateNormal>
+        <StateTracking>
+          <HeaderColumn>
+            <Back>
+              <Color1 Type="Color" Value="254, 254, 254" />
+              <Color2 Type="Color" Value="210, 210, 210" />
+              <ColorStyle Type="PaletteColorStyle" Value="GlassNormalFull" />
+            </Back>
+          </HeaderColumn>
+          <HeaderRow>
+            <Back>
+              <Color1 Type="Color" Value="254, 254, 254" />
+              <Color2 Type="Color" Value="210, 210, 210" />
+              <ColorStyle Type="PaletteColorStyle" Value="GlassNormalFull" />
+            </Back>
+          </HeaderRow>
+        </StateTracking>
+        <StatePressed>
+          <HeaderColumn>
+            <Back>
+              <Color1 Type="Color" Value="210, 210, 210" />
+              <Color2 Type="Color" Value="254, 254, 254" />
+            </Back>
+          </HeaderColumn>
+          <HeaderRow>
+            <Back>
+              <Color1 Type="Color" Value="210, 210, 210" />
+              <Color2 Type="Color" Value="254, 254, 254" />
+            </Back>
+          </HeaderRow>
+        </StatePressed>
+      </GridCommon>
+      <GridList>
+        <StateTracking>
+          <HeaderColumn>
+            <Back>
+              <Color1 Type="Color" Value="254, 254, 254" />
+              <Color2 Type="Color" Value="210, 210, 210" />
+              <ColorStyle Type="PaletteColorStyle" Value="GlassNormalFull" />
+            </Back>
+          </HeaderColumn>
+        </StateTracking>
+        <StateSelected>
+          <DataCell>
+            <Back>
+              <Color1 Type="Color" Value="188, 226, 255" />
+              <Color2 Type="Color" Value="188, 226, 255" />
+            </Back>
+          </DataCell>
+        </StateSelected>
+      </GridList>
+      <GridSheet>
+        <StateSelected>
+          <DataCell>
+            <Back>
+              <Color1 Type="Color" Value="188, 226, 255" />
+              <Color2 Type="Color" Value="98, 184, 251" />
+              <ColorStyle Type="PaletteColorStyle" Value="Linear" />
+            </Back>
+          </DataCell>
+        </StateSelected>
+      </GridSheet>
+    </GridStyles>
+    <Images>
+      <CheckBox>
+        <UncheckedDisabled Type="Image" Value="ImageCache1" />
+        <UncheckedNormal Type="Image" Value="ImageCache2" />
+        <UncheckedTracking Type="Image" Value="ImageCache3" />
+        <UncheckedPressed Type="Image" Value="ImageCache4" />
+        <CheckedDisabled Type="Image" Value="ImageCache5" />
+        <CheckedNormal Type="Image" Value="ImageCache6" />
+        <CheckedTracking Type="Image" Value="ImageCache7" />
+        <CheckedPressed Type="Image" Value="ImageCache8" />
+        <IndeterminateDisabled Type="Image" Value="ImageCache9" />
+        <IndeterminateNormal Type="Image" Value="ImageCache10" />
+        <IndeterminateTracking Type="Image" Value="ImageCache11" />
+        <IndeterminatePressed Type="Image" Value="ImageCache12" />
+      </CheckBox>
+      <RadioButton>
+        <UncheckedDisabled Type="Image" Value="ImageCache13" />
+        <UncheckedNormal Type="Image" Value="ImageCache14" />
+        <UncheckedTracking Type="Image" Value="ImageCache15" />
+        <UncheckedPressed Type="Image" Value="ImageCache16" />
+        <CheckedDisabled Type="Image" Value="ImageCache17" />
+        <CheckedNormal Type="Image" Value="ImageCache18" />
+        <CheckedTracking Type="Image" Value="ImageCache19" />
+        <CheckedPressed Type="Image" Value="ImageCache20" />
+      </RadioButton>
+    </Images>
+    <InputControlStyles>
+      <InputControlCommon>
+        <StateCommon>
+          <Border>
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+            <Color1 Type="Color" Value="94, 163, 229" />
+            <Color2 Type="Color" Value="94, 163, 229" />
+          </Border>
+        </StateCommon>
+      </InputControlCommon>
+      <InputControlStandalone>
+        <StateCommon>
+          <Border>
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+            <Color1 Type="Color" Value="94, 163, 229" />
+            <Color2 Type="Color" Value="94, 163, 229" />
+          </Border>
+        </StateCommon>
+      </InputControlStandalone>
+      <InputControlRibbon>
+        <StateCommon>
+          <Border>
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+            <Color1 Type="Color" Value="94, 163, 229" />
+            <Color2 Type="Color" Value="94, 163, 229" />
+          </Border>
+        </StateCommon>
+        <StateNormal>
+          <Border>
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+          </Border>
+        </StateNormal>
+      </InputControlRibbon>
+    </InputControlStyles>
+    <PanelStyles>
+      <PanelCommon>
+        <StateCommon>
+          <Color1 Type="Color" Value="244, 244, 244" />
+          <Color2 Type="Color" Value="244, 244, 244" />
+        </StateCommon>
+      </PanelCommon>
+    </PanelStyles>
+    <Ribbon>
+      <RibbonAppButton>
+        <StateTracking>
+          <BackColor1 Type="Color" Value="188, 226, 255" />
+          <BackColor2 Type="Color" Value="188, 226, 255" />
+          <BackColor3 Type="Color" Value="13, 130, 192" />
+          <BackColor4 Type="Color" Value="188, 226, 255" />
+          <BackColor5 Type="Color" Value="98, 184, 251" />
+        </StateTracking>
+        <StatePressed>
+          <BackColor1 Type="Color" Value="188, 226, 255" />
+          <BackColor2 Type="Color" Value="188, 226, 255" />
+          <BackColor3 Type="Color" Value="13, 130, 192" />
+          <BackColor4 Type="Color" Value="98, 184, 251" />
+          <BackColor5 Type="Color" Value="98, 184, 251" />
+        </StatePressed>
+      </RibbonAppButton>
+      <RibbonAppMenuOuter>
+        <BackColor1 Type="Color" Value="230, 230, 230" />
+        <BackColor2 Type="Color" Value="230, 230, 230" />
+        <BackColor3 Type="Color" Value="244, 244, 244" />
+        <BackColor4 Type="Color" Value="" />
+        <BackColor5 Type="Color" Value="" />
+      </RibbonAppMenuOuter>
+      <RibbonAppMenuInner>
+        <BackColor1 Type="Color" Value="244, 244, 244" />
+        <BackColor2 Type="Color" Value="13, 130, 192" />
+        <BackColor3 Type="Color" Value="" />
+        <BackColor4 Type="Color" Value="" />
+        <BackColor5 Type="Color" Value="" />
+      </RibbonAppMenuInner>
+      <RibbonAppMenuDocs>
+        <BackColor1 Type="Color" Value="244, 244, 244" />
+        <BackColor2 Type="Color" Value="244, 244, 244" />
+        <BackColor3 Type="Color" Value="244, 244, 244" />
+        <BackColor4 Type="Color" Value="244, 244, 244" />
+        <BackColor5 Type="Color" Value="244, 244, 244" />
+      </RibbonAppMenuDocs>
+      <RibbonGeneral>
+        <DisabledDark Type="Color" Value="180, 180, 180" />
+        <DisabledLight Type="Color" Value="210, 210, 210" />
+        <GroupDialogDark Type="Color" Value="13, 130, 192" />
+        <GroupDialogLight Type="Color" Value="254, 254, 254" />
+        <GroupSeparatorDark Type="Color" Value="200, 200, 200" />
+        <GroupSeparatorLight Type="Color" Value="254, 254, 254" />
+        <MinimizeBarDarkColor Type="Color" Value="" />
+        <MinimizeBarLightColor Type="Color" Value="" />
+        <TabSeparatorColor Type="Color" Value="" />
+        <TabSeparatorContextColor Type="Color" Value="" />
+        <QATButtonDarkColor Type="Color" Value="" />
+        <QATButtonLightColor Type="Color" Value="" />
+      </RibbonGeneral>
+      <RibbonGroupArea>
+        <StateCommon>
+          <BackColor1 Type="Color" Value="13, 130, 192" />
+          <BackColor2 Type="Color" Value="254, 254, 254" />
+          <BackColor3 Type="Color" Value="254, 254, 254" />
+          <BackColor4 Type="Color" Value="210, 210, 210" />
+          <BackColor5 Type="Color" Value="254, 254, 254" />
+        </StateCommon>
+      </RibbonGroupArea>
+      <RibbonGroupNormalBorder>
+        <StateCommon>
+          <BackColor1 Type="Color" Value="94, 163, 229" />
+          <BackColor2 Type="Color" Value="13, 130, 192" />
+          <BackColor3 Type="Color" Value="" />
+          <BackColor4 Type="Color" Value="" />
+          <BackColor5 Type="Color" Value="" />
+        </StateCommon>
+      </RibbonGroupNormalBorder>
+      <RibbonGroupNormalTitle>
+        <StateCommon>
+          <BackColor1 Type="Color" Value="Gainsboro" />
+          <BackColor2 Type="Color" Value="210, 210, 210" />
+          <BackColor3 Type="Color" Value="" />
+          <BackColor4 Type="Color" Value="" />
+          <BackColor5 Type="Color" Value="" />
+          <TextColor Type="Color" Value="" />
+        </StateCommon>
+      </RibbonGroupNormalTitle>
+      <RibbonGroupCollapsedBorder>
+        <StateCommon>
+          <BackColor1 Type="Color" Value="94, 163, 229" />
+          <BackColor2 Type="Color" Value="94, 163, 229" />
+          <BackColor3 Type="Color" Value="" />
+          <BackColor4 Type="Color" Value="" />
+          <BackColor5 Type="Color" Value="" />
+        </StateCommon>
+      </RibbonGroupCollapsedBorder>
+      <RibbonGroupCollapsedBack>
+        <StateCommon>
+          <BackColor1 Type="Color" Value="254, 254, 254" />
+          <BackColor2 Type="Color" Value="254, 254, 254" />
+          <BackColor3 Type="Color" Value="254, 254, 254" />
+          <BackColor4 Type="Color" Value="230, 230, 230" />
+          <BackColor5 Type="Color" Value="254, 254, 254" />
+        </StateCommon>
+        <StateTracking>
+          <BackColor1 Type="Color" Value="" />
+          <BackColor2 Type="Color" Value="" />
+          <BackColor3 Type="Color" Value="" />
+          <BackColor4 Type="Color" Value="244, 244, 244" />
+          <BackColor5 Type="Color" Value="" />
+        </StateTracking>
+        <StateContextTracking>
+          <BackColor1 Type="Color" Value="" />
+          <BackColor2 Type="Color" Value="" />
+          <BackColor3 Type="Color" Value="" />
+          <BackColor4 Type="Color" Value="244, 244, 244" />
+          <BackColor5 Type="Color" Value="" />
+        </StateContextTracking>
+      </RibbonGroupCollapsedBack>
+      <RibbonTab>
+        <StateTracking>
+          <BackColor1 Type="Color" Value="13, 130, 192" />
+          <BackColor2 Type="Color" Value="210, 210, 210" />
+          <BackColor3 Type="Color" Value="" />
+          <BackColor4 Type="Color" Value="" />
+          <BackColor5 Type="Color" Value="" />
+          <TextColor Type="Color" Value="" />
+        </StateTracking>
+        <StateCheckedNormal>
+          <BackColor1 Type="Color" Value="13, 130, 192" />
+          <BackColor2 Type="Color" Value="254, 254, 254" />
+          <BackColor3 Type="Color" Value="" />
+          <BackColor4 Type="Color" Value="254, 254, 254" />
+          <BackColor5 Type="Color" Value="246, 246, 246" />
+          <TextColor Type="Color" Value="" />
+        </StateCheckedNormal>
+        <StateCheckedTracking>
+          <BackColor1 Type="Color" Value="254, 254, 254" />
+          <BackColor2 Type="Color" Value="244, 244, 244" />
+          <BackColor3 Type="Color" Value="13, 130, 192" />
+          <BackColor4 Type="Color" Value="13, 130, 192" />
+          <BackColor5 Type="Color" Value="244, 244, 244" />
+          <TextColor Type="Color" Value="" />
+        </StateCheckedTracking>
+      </RibbonTab>
+      <RibbonGalleryBorder>
+        <BackColor1 Type="Color" Value="94, 163, 229" />
+        <BackColor2 Type="Color" Value="94, 163, 229" />
+        <BackColor3 Type="Color" Value="94, 163, 229" />
+        <BackColor4 Type="Color" Value="94, 163, 229" />
+        <BackColor5 Type="Color" Value="94, 163, 229" />
+      </RibbonGalleryBorder>
+    </Ribbon>
+    <SeparatorStyles>
+      <SeparatorCommon>
+        <StateCommon>
+          <Back>
+            <Color1 Type="Color" Value="254, 254, 254" />
+            <Color2 Type="Color" Value="210, 210, 210" />
+          </Back>
+          <Border>
+            <DrawBorders Type="PaletteDrawBorders" Value="Top,Bottom,Left,Right" />
+            <Color1 Type="Color" Value="13, 130, 192" />
+            <Color2 Type="Color" Value="13, 130, 192" />
+          </Border>
+        </StateCommon>
+      </SeparatorCommon>
+    </SeparatorStyles>
+    <TabStyles>
+      <TabCommon>
+        <StateCommon>
+          <Back>
+            <Color1 Type="Color" Value="254, 254, 254" />
+            <Color2 Type="Color" Value="210, 210, 210" />
+          </Back>
+          <Border>
+            <Color1 Type="Color" Value="13, 130, 192" />
+            <Color2 Type="Color" Value="13, 130, 192" />
+          </Border>
+        </StateCommon>
+        <StateNormal>
+          <Back>
+            <Color1 Type="Color" Value="244, 244, 244" />
+            <Color2 Type="Color" Value="244, 244, 244" />
+          </Back>
+        </StateNormal>
+        <StateTracking>
+          <Back>
+            <Color1 Type="Color" Value="188, 226, 255" />
+            <Color2 Type="Color" Value="98, 184, 251" />
+            <ColorStyle Type="PaletteColorStyle" Value="RoundedTopLight" />
+          </Back>
+        </StateTracking>
+        <StatePressed>
+          <Back>
+            <Color1 Type="Color" Value="188, 226, 255" />
+            <Color2 Type="Color" Value="98, 184, 251" />
+            <ColorStyle Type="PaletteColorStyle" Value="RoundedTopLight" />
+          </Back>
+        </StatePressed>
+      </TabCommon>
+      <TabHighProfile>
+        <StateCommon>
+          <Back>
+            <ColorStyle Type="PaletteColorStyle" Value="RoundedTopLight" />
+          </Back>
+        </StateCommon>
+        <StateSelected>
+          <Back>
+            <Color1 Type="Color" Value="188, 226, 255" />
+            <Color2 Type="Color" Value="98, 184, 251" />
+          </Back>
+        </StateSelected>
+      </TabHighProfile>
+      <TabLowProfile>
+        <StateNormal>
+          <Border>
+            <Draw Type="InheritBool" Value="False" />
+          </Border>
+        </StateNormal>
+        <StateTracking>
+          <Back>
+            <Color1 Type="Color" Value="254, 254, 254" />
+            <Color2 Type="Color" Value="254, 254, 254" />
+          </Back>
+        </StateTracking>
+        <StatePressed>
+          <Back>
+            <Color1 Type="Color" Value="254, 254, 254" />
+            <Color2 Type="Color" Value="254, 254, 254" />
+          </Back>
+        </StatePressed>
+        <StateSelected>
+          <Back>
+            <Color1 Type="Color" Value="254, 254, 254" />
+            <Color2 Type="Color" Value="210, 210, 210" />
+          </Back>
+        </StateSelected>
+      </TabLowProfile>
+      <TabOneNote>
+        <StateCommon>
+          <Back>
+            <ColorStyle Type="PaletteColorStyle" Value="QuarterPhase" />
+          </Back>
+        </StateCommon>
+        <StateNormal>
+          <Back>
+            <Color1 Type="Color" Value="244, 244, 244" />
+            <Color2 Type="Color" Value="239, 239, 239" />
+          </Back>
+        </StateNormal>
+        <StateSelected>
+          <Back>
+            <Color1 Type="Color" Value="188, 226, 255" />
+            <Color2 Type="Color" Value="98, 184, 251" />
+          </Back>
+        </StateSelected>
+      </TabOneNote>
+    </TabStyles>
+    <ToolMenuStatus>
+      <Button>
+        <ButtonCheckedGradientBegin Type="Color" Value="13, 130, 192" />
+        <ButtonCheckedGradientEnd Type="Color" Value="13, 130, 192" />
+        <ButtonCheckedGradientMiddle Type="Color" Value="13, 130, 192" />
+        <ButtonCheckedHighlight Type="Color" Value="13, 130, 192" />
+        <ButtonCheckedHighlightBorder Type="Color" Value="13, 130, 192" />
+        <ButtonPressedBorder Type="Color" Value="13, 130, 192" />
+        <ButtonPressedGradientBegin Type="Color" Value="98, 184, 251" />
+        <ButtonPressedGradientEnd Type="Color" Value="98, 184, 251" />
+        <ButtonPressedGradientMiddle Type="Color" Value="98, 184, 251" />
+        <ButtonPressedHighlight Type="Color" Value="13, 130, 192" />
+        <ButtonPressedHighlightBorder Type="Color" Value="13, 130, 192" />
+        <ButtonSelectedBorder Type="Color" Value="13, 130, 192" />
+        <ButtonSelectedGradientBegin Type="Color" Value="98, 184, 251" />
+        <ButtonSelectedGradientEnd Type="Color" Value="98, 184, 251" />
+        <ButtonSelectedGradientMiddle Type="Color" Value="98, 184, 251" />
+        <ButtonSelectedHighlight Type="Color" Value="13, 130, 192" />
+        <ButtonSelectedHighlightBorder Type="Color" Value="13, 130, 192" />
+        <CheckBackground Type="Color" Value="13, 130, 192" />
+        <CheckPressedBackground Type="Color" Value="13, 130, 192" />
+        <CheckSelectedBackground Type="Color" Value="254, 254, 254" />
+        <OverflowButtonGradientBegin Type="Color" Value="200, 200, 200" />
+        <OverflowButtonGradientEnd Type="Color" Value="180, 180, 180" />
+        <OverflowButtonGradientMiddle Type="Color" Value="180, 180, 180" />
+      </Button>
+      <Grip>
+        <GripDark Type="Color" Value="254, 254, 254" />
+        <GripLight Type="Color" Value="200, 200, 200" />
+      </Grip>
+      <Rafting>
+        <RaftingContainerGradientBegin Type="Color" Value="244, 244, 244" />
+        <RaftingContainerGradientEnd Type="Color" Value="244, 244, 244" />
+      </Rafting>
+      <MenuStrip>
+        <MenuStripGradientBegin Type="Color" Value="244, 244, 244" />
+        <MenuStripGradientEnd Type="Color" Value="244, 244, 244" />
+      </MenuStrip>
+      <Separator>
+        <SeparatorDark Type="Color" Value="200, 200, 200" />
+        <SeparatorLight Type="Color" Value="254, 254, 254" />
+      </Separator>
+      <StatusStrip>
+        <StatusStripGradientBegin Type="Color" Value="254, 254, 254" />
+        <StatusStripGradientEnd Type="Color" Value="244, 244, 244" />
+      </StatusStrip>
+      <ToolStrip>
+        <ToolStripBorder Type="Color" Value="180, 180, 180" />
+        <ToolStripContentPanelGradientBegin Type="Color" Value="244, 244, 244" />
+        <ToolStripContentPanelGradientEnd Type="Color" Value="244, 244, 244" />
+        <ToolStripGradientBegin Type="Color" Value="254, 254, 254" />
+        <ToolStripGradientEnd Type="Color" Value="210, 210, 210" />
+        <ToolStripGradientMiddle Type="Color" Value="254, 254, 254" />
+        <ToolStripPanelGradientBegin Type="Color" Value="244, 244, 244" />
+        <ToolStripPanelGradientEnd Type="Color" Value="244, 244, 244" />
+      </ToolStrip>
+    </ToolMenuStatus>
+    <BasePaletteMode Type="PaletteMode" Value="Office 2007 - Silver" />
+  </Properties>
+  <Images>
+    <Image Name="ImageCache1"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA6gAAAAKJUE5HDQoaCgAAAA1JSERSAAAADwAAAA8IBgAAADvWlUoAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAaElEQVQ4T2NkYGBkIBtsPnd3KRD/X3XiJkEMUgdSD7EQiEECFx+//f/161eC+MazdyDN/+GaQTa+fv2aaAxSP+I1v3nz5j+xGCPAiNUIUjdININSzNOXr4n2M0oKoyhtw5MaLLGTQAMANF5k2SkmHhYAAAAASUVORK5CYIIL]]></Image>
+    <Image Name="ImageCache2"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAIQEAAAKJUE5HDQoaCgAAAA1JSERSAAAADwAAAA8IBgAAADvWlUoAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAn0lEQVQ4T52SIQ4CMRREuwdAcgMc9+jBViARnIggCA5BaNKkpqKqoqakSc2wDezC8gUDP3n5Zl7GTKdUp/6+Rb/X690Jw//KM6cfhQOr7RE23sCcTwXLzQGT3BprrTQtP5NLKWARcs4ZLEJOKYFFyDFGsAg5hAAWIXvvwSJk5xxYhGytBctMbos5X64wxlB8Nmtm12+Z17anqY1j/+HfAeqtMKgFdavlAAAAAElFTkSuQmCCCw==]]></Image>
+    <Image Name="ImageCache3"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAKAEAAAKJUE5HDQoaCgAAAA1JSERSAAAADwAAAA8IBgAAADvWlUoAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAApklEQVQ4T2NkYGBkIBvwNh1w05504j+QJoih6twgFgKxSt+x/3vuff1/98N/gvjwo+//RdsO/YdrBtm4+d5/ojFIPYrmtbf//ScWY2heduPff2Ixhua5l//9JxZjaJ5y/u9/YjGG5q7Tf/8TizE0Nx7/859YjKG54tCf/8RiDM2F+//8JxajaAalmIxdP/9n7/lNFEa32Y2YdI2kBpG24UkNlthJoAHHyQXMdkDEvgAAAABJRU5ErkJgggs=]]></Image>
+    <Image Name="ImageCache4"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAKAEAAAKJUE5HDQoaCgAAAA1JSERSAAAADwAAAA8IBgAAADvWlUoAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAApklEQVQ4T2NkYGBkIBvwNh1w05504j+QJoih6twgFgKxSt+x/9POfv6/4fZfgnjOha//RdsO/YdrBtmYvec30RikHkVz4f4//4nFGJorDv35TyzG0Nx4/M9/YjGG5q7Tf/8TizE0Tzn/9z+xGEPz3Mv//hOLMTQvu/HvP7EYQ/Pa2//+E4tRNINSzFpg6tp87z9RGN1mN2LSNZIaRNqGJzVYYieBBgCh8gLwJJiBpAAAAABJRU5ErkJgggs=]]></Image>
+    <Image Name="ImageCache5"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAIgEAAAKJUE5HDQoaCgAAAA1JSERSAAAADwAAAA8IBgAAADvWlUoAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAoElEQVQ4T6WSwQqAIBBE7f+/o0vXfqJT0K0OnaIgtPDi2ZxipUwzS1iE2LczuZMxlrHPp6z73JQuqi5a6EP/IWgKH5ph0UqpaLXTClhbGIqccy2EiBb60J8ESyn3wckwQKjhfoRJgX6BwCh8VgDsgkHbvmZanevm9mA+m2TV3UIQPjtwFWnII0wDQnu/wEjMOL8LCQZeEvYr2zZqFPaEewPpYl+aQsKwkgAAAABJRU5ErkJgggs=]]></Image>
+    <Image Name="ImageCache6"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAADwAAAA8IBgAAADvWlUoAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA3UlEQVQ4T51SsQ6CQAyFD3D0D9z8Dz7MwdHBLzIOxo3BSHIJyw1MR3IJQY7AUCla7NGop5e8vGv7Hi3QOIri6O+z2ByS9f4MA3/FU5c8Gg5Y7U6gzA1CjrYOltsjTGbs2HVdMFDvmZ1z8Al93091Ya7rGt4Bp6LpUCPM1lpAtG07Mo/pQ1JNmI0x0DTN+FRkHvMc5oW5KIpxbOoyv2OdIMxaa0BUVeX9a4ypRizMeZ4DAd8XBcg8T3dhVkoBR1mWXsxrnhk3Jr1cIcuyIMw7JyF7zTSv3Z5WjZb9B74DNTYfpUO2xmUAAAAASUVORK5CYIIL]]></Image>
+    <Image Name="ImageCache7"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAbQEAAAKJUE5HDQoaCgAAAA1JSERSAAAADwAAAA8IBgAAADvWlUoAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA60lEQVQ4T2NkYGBkIBvwNh1w05504j+QJoih6twgFgKxSt+x/3vuff1/98N/gvjwo+//RdsO/YdrBtm4+d5/ojFIPYrmtbf//ceHDz5ByGNoXnbj339ceM/Df+CwANEgNRia517+9x+Et96D0Mh8WEDC5DA0Tzn/9//623/BpoJoZD6yGEgcQ3PX6b//l9+ASIAwOhskD8MYmhuP//kPwguv/kGJaxAfJgejMTRXHPrzH4ZnXYQYAKKRxWFsDM2F+//8R8ZTz6PykeVQNINSTMaun/+z9/wmCqPb7EZMukZSg0jb8KQGS+wk0AA9fvodZtesJwAAAABJRU5ErkJgggs=]]></Image>
+    <Image Name="ImageCache8"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAbAEAAAKJUE5HDQoaCgAAAA1JSERSAAAADwAAAA8IBgAAADvWlUoAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA6klEQVQ4T2NkYGBkIBvwNh1w05504j+QJoih6twgFgKxSt+x/9POfv6/4fZfgnjOha//RdsO/YdrBtmYvec30RikHkVz4f4///HhqecR8hiaKw79+Y8Lz7r4BxwWIBqkBkNz4/E//0F44VUIjcyHBSRMDkNz1+m//5ff+As2FUQj85HFQOIYmqec//t/PTC0Ybags0HyMIyhee7lf/9BeOu9fyhxDeLD5GA0huZlN/79h+E9DyEGgGhkcRgbQ/Pa2//+I+ODT1D5yHIomkEpZi3Qv5vv/ScKo9vsRky6RlKDSNvwpAZL7CTQANNu9xfC9MSjAAAAAElFTkSuQmCCCw==]]></Image>
+    <Image Name="ImageCache9"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAADwEAAAKJUE5HDQoaCgAAAA1JSERSAAAADwAAAA8IBgAAADvWlUoAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAjUlEQVQ4T2NkYGBkIBtsPnd3KRD/X3XiJkEMUgdSD7EQiEECFx+//f/161eC+MazdyDN/+GaQTa+fv2aaAxSj1Xzly9f/uPCMAvwaob6C+w8GAYZOAg1v3nz5j8Ig0Icm7NB4jA1GH6mmmZc8U3QZpgCfDSKs0F+fPryNdxPhAxAT57kp214UoMldhJoAPTPXT64YEcdAAAAAElFTkSuQmCCCw==]]></Image>
+    <Image Name="ImageCache10"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAUAEAAAKJUE5HDQoaCgAAAA1JSERSAAAADwAAAA8IBgAAADvWlUoAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAzklEQVQ4T52SsQrCMBRF6wc4+gdu/kc/zMHRwS8SB3FzEAuBLhk6pRAKtaFdrr3oq9ZEjQYOgcc9eUl4kySZJH+v6XKbLjYH9PtX7rn01rBnvt5DmQtilrYOs9UOg8yOXddFw/xIds6BfDpEMp5c1zVI27bBd7MuGU+21oI0TROUWZeMJxtjQHh66NdZl4wnF0UBUlVVUGZdMp6stQbh1UKdWZeMJ+d5DlKW5Vsk48lKKcQykjkxx9MZWZZF8do5jZnrp8xjtodRk2H/Yb8CLt4PXAIIKsUAAAAASUVORK5CYIIL]]></Image>
+    <Image Name="ImageCache11"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYAEAAAKJUE5HDQoaCgAAAA1JSERSAAAADwAAAA8IBgAAADvWlUoAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA3klEQVQ4T2NkYGBkIBvwNh1w05504j+QJoih6twgFgKxSt+x/3vuff1/98N/gvjwo+//RdsO/YdrBtm4+d5/ojFIPYrmtbf//Qfh/Y9xY5gaDM3Lbvz7D8I7H/zD6m+QOEwNhua5l//9B+FNd7BrBonD1GBonnL+738QXn3zL1abQeIwNRiau07//Q/CS65h1wwSh6nB0Nx4/M9/EJ57+Q9Wm0HiMDUYmisO/fkPwtPO48YwNRiaC/f/+U8sRtEMSjEZu37+z97zmyiMbrMbMekaSQ0ibcOTGiyxk0ADAFos7kXc3aVpAAAAAElFTkSuQmCCCw==]]></Image>
+    <Image Name="ImageCache12"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYAEAAAKJUE5HDQoaCgAAAA1JSERSAAAADwAAAA8IBgAAADvWlUoAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA3klEQVQ4T2NkYGBkIBvwNh1w05504j+QJoih6twgFgKxSt+x/9POfv6/4fZfgnjOha//RdsO/YdrBtmYvec30RikHkVz4f4//0F46nncGKYGQ3PFoT//QXjWxT9Y/Q0Sh6nB0Nx4/M9/EF54FbtmkDhMDYbmrtN//4Pw8ht/sdoMEoepwdA85fzf/yC8Hhji2KIMJA5Tg6F57uV//0F4671/WDWDxGFqMDQvu/HvPwjveYgbw9RgaF57+99/YjGKZlCKWQv00+Z7/4nC6Da7EZOukdQg0jY8qcESOwk0ACmB7YE7SsvFAAAAAElFTkSuQmCCCw==]]></Image>
+    <Image Name="ImageCache13"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAcgEAAAKJUE5HDQoaCgAAAA1JSERSAAAADAAAAAwIBgAAAFZ1XOcAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA8ElEQVQoU42Ry2oCMRSGx3kRV24Ftz6BG9+g+75Ln8PiZSvSInTXi5WCeBlHO6ITi0HNiPQBZtJ8gVkIShr4MyfnfH8mySmkaeoxnieikmVZ3YQl3/fvyJl1w3wis+7WysWRBTF0Bsvqy2yrP6Odjvcnrc6/VsTkqMHYzXujdaU/jfXqR2ql1FVRg4H1Wu/hw9f39iacbwID6zXf5qHY7Z0GGFjO74Tzv8BaQ5Ik/5I1NF8DIQ9HpwEGlks/BrF0GmBgbQ+exht9VLePRQ0G1jau/bG4551DIS+MgOSowdjGMeXd5p2NhlwOEZPLuwz3B6Oc3KBS6tYKAAAAAElFTkSuQmCCCw==]]></Image>
+    <Image Name="ImageCache14"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAnwEAAAKJUE5HDQoaCgAAAA1JSERSAAAADAAAAAwIBgAAAFZ1XOcAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABHUlEQVQoU42RTUsCURSGTy4NJBClwEW/IJj0D7RxmWv/RS2CXLrTTS4kaNXO2ghuamEfOBCiK5MUBy/DpQahwXKKWUzMxlPvgXYyeOG5HM77nAv33g3TNAmr9p4xaLmsfAd+3p1/SG87naKteOKOYrHT453ZszQxULhSxex5j49uFd/bC377+hFQo4cMjhxeuLaN/ZrJXf3JYRiuBBkcuHTYmPYqHZuDIIgEDlzaq7Z58Dpn3/cjgQOXNk+a7HneWsCVAdd110IGdss3PFKaHceJBA5cytWf2s3+hLXWkcCBS39vbOAyI2vKSqmVIIMDVz4uW++W8M4Xj0MejidsWZaAGj1kcOTjsIGDy5eicdZ5SJZajMsB1Ogh+/d+AYuPtMt1L1xvAAAAAElFTkSuQmCCCw==]]></Image>
+    <Image Name="ImageCache15"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAngEAAAKJUE5HDQoaCgAAAA1JSERSAAAADAAAAAwIBgAAAFZ1XOcAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABHElEQVQoU2P8+/cvAwgErbpvyPDvX8eHb5/cXrx6DRaTEBNlEODi28XAxFSxLkzxPFgQpMF/2a1I46nH/wcuu/Z/4omX/zfe/ALGIDZIDCQHUgM23H/5HUOj/gP/q/e/+z/38n+sGCQHUgNSy+C39OZxIOP/9It/8WKQGpBaBr3Onf8r9n/633f2L14MUgNSy8BduuZ/y8k/RGGQWrCGqiN/iMJgDQqNW/6n7vj6v2DfH7wYpAaklsFk8uGdzkue/E/f/RsvBqkBqWUAhrEhyDNRW3/+j9v+GysGyYHUgNSCI8548tFKUDhbL3r6P3TTj/8RW36BMYgNEgPJgdSAIw5EgLDjvEuRhn379whXrv8P8hwIg9ggMZAcTB0AADWSYC9cX50AAAAASUVORK5CYIIL]]></Image>
+    <Image Name="ImageCache16"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAArwEAAAKJUE5HDQoaCgAAAA1JSERSAAAADAAAAAwIBgAAAFZ1XOcAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABLUlEQVQoU2P8+/cvAwgErbpvyPDvX8eHb5/cXrx6DRaTEBNlEODi28XAxFSxLkzxPFgQpMF/2a1I+9ln/pvOuPg/e9vz/53HP4Nxwc6X/+3nXv1vPPX4f5AasOH+y+8YGvUf+G+54PH/iC2/sGKXZW/+g9SA1DL4Lb153GDWnf9x23/jxSA1ILUMep07/4dv+PA/ffdvvBikBqSWgbt0zf+CfX+IwiC1YA1VR/4QhcEaFBq3/K84+PV/y8k/eDFIDUgtg8nkwztjNzz933f2L14MUgNSywAMY0OQZ1qPffk//eJfrHjyud9gD4PUgiPOePLRSpBAzPqH/6ec+/V/7uX/YDzj4p//OTtegOMApAYccSAChB3nXYo07Nu/R7hy/X+Q50AYxAaJgeRg6gCesY9956P9CwAAAABJRU5ErkJgggs=]]></Image>
+    <Image Name="ImageCache17"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAcgEAAAKJUE5HDQoaCgAAAA1JSERSAAAADAAAAAwIBgAAAFZ1XOcAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA8ElEQVQoU42Ry2oCMRSGx3kRV24Ftz6BG9+g+75Ln8PiZSvSInTXi5WCeBlHO6ITi0HNiPQBZtJ8gVkIShr4MyfnfH8mySmkaeoxnieikmVZ3YQl3/fvyJl1w3wis+7WysWRBTF0Bsvqy2yrP6Odjvcnrc6/VsTkqMHYzXujdaU/jfXqR2ql1FVRg4H1Wu/hw9f39iacbwID6zXf5qHY7Z0GGFjO74Tzv8BaQ5Ik/5I1NF8DIQ9HpwEGlks/BrF0GmBgbQ+exht9VLePRQ0G1jau/bG4551DIS+MgOSowdjGMeXd5p2NhlwOEZPLuwz3B6Oc3KBS6tYKAAAAAElFTkSuQmCCCw==]]></Image>
+    <Image Name="ImageCache18"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA4gEAAAKJUE5HDQoaCgAAAA1JSERSAAAADAAAAAwIBgAAAFZ1XOcAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABYElEQVQoU22RT0vCcBzGf3qLIIKIKDr0BoLMXkCX6mZn30VEhzwWREbkxQ4RdatOQocQMssEEaVDDQ1XP2SkNFuzbK7hn4vfer4wTw4+4+F5Pr/BNk86nRa4IrVpn6fXC1tte/njs87d5MS4GB0auSGvd3N96v2JSxxYPZdB/2GO1uKSkuVvqvy0GWR02ODwwwMXZd98JEVZ7Yu63e5AsMGBKwJnL7nwfZlarRbT6XT6h5DdHg5cMbuXoMc3k2zbJsdxqG790n5KMsjosMGBK4Y3YtRoNBiMu8kSrZw8MMjo3B0uHzAMg7Esi3auC7R0nGeQm81mf+cDM1tXVJQaVatVHio1g7bjCoOMDhscuGIhmknE8iXSNI3RdZ1M02SQ3R4OXPH/jX14maL6SlLKgWCDA5d/nD+aDeE7H90ppDyXSFVVBhkdNjj843ADi6eF4NxB6nYsdEl4OYCMDpvr/QFMB6z+YMI9/wAAAABJRU5ErkJgggs=]]></Image>
+    <Image Name="ImageCache19"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA7wEAAAKJUE5HDQoaCgAAAA1JSERSAAAADAAAAAwIBgAAAFZ1XOcAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABbUlEQVQoU22RXShDcRjG/3ZJSYlcci3qmDtXUm6Uocgkd3LrRm1cKYrStC3JBRfLznzMRPMxZAptLDQyNmo+y0dJC42ds9eed+1up36np+f5/U+dc3JUVRW4WhaikkgmRz5/YvUvb+/clRQXiYLc/C2h0RhcbWVnXOKATo7otRM+apZDZPa/0kr4i0FGhw0OP1znuJWqxvdowPtB0xeUFWxw4IpGe9iXCjQZVJn5sErr0TTImR4OXFE56iGDN0amE5VsIZXsl3HqdD0yyOiwwYEr8vqcNHSkMM6IQq2Ld1RhOWWQl27SG4DLB/oPFEa+Uqhp7p7KzQEG2XGd3gAfKB10U/fmN/XuKjR2rJAlEKcG+YFBRocNDlxRbd331M0+Uc92ghn2J2gqqDDImR4OXJH6xhJepmPtl7o2ElnBBgcu/zit9dCI71xje6bW1Ti1u/8YZHTY4PCPww3UzpzrJZN3p9C4zC8HkNFhy3j/3zOP6Il6LIgAAAAASUVORK5CYIIL]]></Image>
+    <Image Name="ImageCache20"><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA/wEAAAKJUE5HDQoaCgAAAA1JSERSAAAADAAAAAwIBgAAAFZ1XOcAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABfUlEQVQoU22RSyhEYRiGf5aUlMiSLSXjsrCSwsICWbgUthYsbBQWSlGkRhoid2JIcilhkEsu464x7pSG5LqQe845Xt5vmp1Tz+nt/Z7v1H9+L8MwFJ+MoUuT+vmpef54Sb57eJQuOChQ+fv4zShv79KRzNA9KbmQZj3LiW/bRmyLA4WTt6i1vwrFtnvEdxwiuskOOvLxtIELU1T9IuK6r5E98f0vidYn0KGrUvtP7ZGtF8if0oSKVQ2Ne7rA7Onp0FURtTZkjT2jYFZD9bqGus1PJPVdCczsOKNDV/mWDKN4Xhe6DnSk9LsQZt4QmHsO3TNCVxbKV3TBeqwjfdCF8IYtgXngxD0jshBSOYHSpXdUbehod+rodH4hc/hKYGbHGR26KsaybMsbu4F5xxB6jwyMn7th9vR06Kq/f2ziYarX3tDsMP7FsqvJgenKxUVbVstY5I660Lj7jQ4nhBaHjqLpO7kDOnJxfJGEzv0ck3lhLqBsVA5HmNlx5vF+AeX/jbyxxcEyAAAAAElFTkSuQmCCCw==]]></Image>
+  </Images>
+</KryptonPalette>

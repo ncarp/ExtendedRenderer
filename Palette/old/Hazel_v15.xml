@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!--Created by exporting the settings of a KryptonPalette instance.-->
+<!--For more information about Krypton visit www.ComponentFactory.com-->
+<!--WARNING: Modifying this file may render it invalid for importing.-->
+<KryptonPalette Version="15" Generated="Saturday, 31 May 2008, 16:45">
+    <Properties>
+        <ButtonStyles>
+            <ButtonStandalone>
+                <StateNormal>
+                    <Back>
+                        <Color1 Type="Color" Value="244, 242, 235" />
+                        <Color2 Type="Color" Value="229, 219, 199" />
+                    </Back>
+                </StateNormal>
+                <OverrideDefault>
+                    <Back>
+                        <Color1 Type="Color" Value="244, 242, 235" />
+                        <Color2 Type="Color" Value="213, 202, 168" />
+                    </Back>
+                </OverrideDefault>
+            </ButtonStandalone>
+            <ButtonNavigatorStack>
+                <StateNormal>
+                    <Back>
+                        <Color1 Type="Color" Value="244, 242, 235" />
+                        <Color2 Type="Color" Value="233, 225, 208" />
+                    </Back>
+                </StateNormal>
+            </ButtonNavigatorStack>
+            <ButtonNavigatorMini>
+                <StateNormal>
+                    <Back>
+                        <Color1 Type="Color" Value="244, 242, 235" />
+                        <Color2 Type="Color" Value="232, 225, 207" />
+                    </Back>
+                </StateNormal>
+            </ButtonNavigatorMini>
+        </ButtonStyles>
+        <FormStyles>
+            <FormMain>
+                <StateCommon>
+                    <Back>
+                        <Color1 Type="Color" Value="233, 225, 208" />
+                        <Color2 Type="Color" Value="233, 225, 208" />
+                    </Back>
+                </StateCommon>
+            </FormMain>
+        </FormStyles>
+        <HeaderStyles>
+            <HeaderCommon>
+                <StateCommon>
+                    <Back>
+                        <Color1 Type="Color" Value="244, 242, 235" />
+                        <Color2 Type="Color" Value="233, 225, 208" />
+                    </Back>
+                </StateCommon>
+            </HeaderCommon>
+        </HeaderStyles>
+        <GridStyles>
+            <GridCommon>
+                <StateCommon>
+                    <HeaderColumn>
+                        <Back>
+                            <Color1 Type="Color" Value="244, 241, 234" />
+                            <Color2 Type="Color" Value="229, 219, 199" />
+                        </Back>
+                    </HeaderColumn>
+                </StateCommon>
+            </GridCommon>
+        </GridStyles>
+        <PanelStyles>
+            <PanelCommon>
+                <StateCommon>
+                    <Color1 Type="Color" Value="237, 231, 218" />
+                    <Color2 Type="Color" Value="237, 231, 218" />
+                </StateCommon>
+            </PanelCommon>
+        </PanelStyles>
+        <SeparatorStyles>
+            <SeparatorCommon>
+                <StateCommon>
+                    <Back>
+                        <Color1 Type="Color" Value="244, 242, 235" />
+                        <Color2 Type="Color" Value="232, 225, 207" />
+                    </Back>
+                </StateCommon>
+            </SeparatorCommon>
+        </SeparatorStyles>
+        <ToolMenuStatus>
+            <MenuStrip>
+                <MenuStripGradientBegin Type="Color" Value="237, 231, 218" />
+                <MenuStripGradientEnd Type="Color" Value="237, 231, 218" />
+            </MenuStrip>
+            <StatusStrip>
+                <StatusStripGradientBegin Type="Color" Value="237, 232, 219" />
+                <StatusStripGradientEnd Type="Color" Value="233, 225, 208" />
+            </StatusStrip>
+            <ToolStrip>
+                <ToolStripBorder Type="Color" Value="171, 155, 140" />
+                <ToolStripContentPanelGradientBegin Type="Color" Value="247, 245, 241" />
+                <ToolStripContentPanelGradientEnd Type="Color" Value="247, 245, 241" />
+                <ToolStripGradientBegin Type="Color" Value="WhiteSmoke" />
+                <ToolStripGradientEnd Type="Color" Value="219, 205, 176" />
+                <ToolStripGradientMiddle Type="Color" Value="234, 231, 217" />
+                <ToolStripPanelGradientBegin Type="Color" Value="237, 231, 218" />
+                <ToolStripPanelGradientEnd Type="Color" Value="237, 231, 218" />
+            </ToolStrip>
+        </ToolMenuStatus>
+        <BasePaletteMode Type="PaletteMode" Value="Office 2007 - Silver" />
+    </Properties>
+    <Images />
+</KryptonPalette>
